@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Cadastro</legend>
+
+        <form action="" method="post">
+
+        <label for="nome">Nome:</label> <br>
+        <input name="input-nome"
+                type="text"
+                required
+                id="nome"> 
+
+    <p></p>
+
+        <label>Email:</label> <br>
+        <input type="email"
+                name="input-email">
+
+    <p></p>
+
+        <label>Idade:</label> <br>
+        <input type="number"
+                min="12"
+                name="input-idade">
+
+    <p></p>
+
+        <label>Data de Nascimento:</label> <br>
+        <input type="date"
+                name="input-nascimento">
+
+    <p></p>
+
+        <label> Onde você possui conta:</label> <br>
+        <input type="checkbox"
+                name="instagram"> <label>Instagram</label>
+        <input type="checkbox"
+                name="input-facebook"> <label>Facebook</label>
+        <input type="checkbox"
+                name="input-youtube"> <label>Youtube</label> <br>
+                    
+    <p></p>
+
+        <label> Sexo:</label> <br>
+        <input type="radio"
+                name="input-sexo"> <label>Maculino</label>
+        <input type="radio"
+                name="input-sexo"> <label>Feminino</label>
+    
+    <p></p>
+
+        <label>Cor dos Olhos:</label><input type="color">
+
+    <p></p>
+    
+
+        <label>Biografia:</label><br>
+        <textarea id="Biografia" name="caixa-biografia">
+        </textarea>
+
+
+    <p></p>
+
+
+        <label>Foto do Perfil:</label> <br>
+        <input type="file"
+                accept="image/*"
+                name="input-foto">
+
+
+    <p></p>            
+
+        <label>Telenone:</label> <br>
+        <input type="tel"
+                name="input-telefone"> 
+
+
+    <p></p>
+
+
+        <label>Link do Perfil do Facebook</label> <br>
+        <input type="url"
+                name="input-link-facebook">
+
+
+    <p></p>
+
+
+        <label>Senha</label> <br>
+        <input type="password"
+                name="input-senha"
+                min="6"
+                max="8">
+
+                
+    <p></p>
+
+
+        <button type="reset">Limpar</button>       
+        <button type="submit">Enviar</button>    
+    </form>
+    </fieldset>   
+     
+
+
+    
+
+</body>
+</html>
